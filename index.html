@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/c2627d9b0a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <header>
+           <nav class="nav">
+               <div class="nav__logo">
+                   <img src="assets/logo.svg" alt="logo image">
+               </div>
+               <ul class="nav__ul">
+                   <li><a class="nav__link" href="#episodes">EPISODES</a></li>
+                   <li><a class="nav__link" href="#nosotros">NOSOTROS</a></li>
+                   <li><a class="nav__link" href="#invitados">ENTRTEVISTAS</a></li>
+                   <li><a class="nav__link" href="#topics">TÓPICOS</a></li>
+               </ul>
+               <div class="nav__mobile">
+                    <input type="checkbox" id="burger-menu">
+                    <label for="burger-menu">
+                        <div class="line line-top"></div>
+                        <div class="line line-middle"></div>
+                        <div class="line line-bottom"></div>
+                    </label>
+                    <div class="nav__mobile--menuSlider">
+                        <ul>
+                            <li><a class="nav__link__mobile" href="#episodes">EPISODES</a></li>
+                            <li><a class="nav__link__mobile" href="#nosotros">NOSOTROS</a></li>
+                            <li><a class="nav__link__mobile" href="#invitados">ENTRTEVISTAS</a></li>
+                            <li><a class="nav__link__mobile" href="#topics">TÓPICOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+           </nav>
+        </header>
+
+        <main class="main-container">
+
+            <section class="nosotros" id="nosotros">
+                <h1 class="nosotros__title">Hellow <span class="nosotros__line-through">world</span> pale blue dot.</h1>
+                <h3 class="nosotros__description">El portal de podcasts que explora el mundo de la programacion y <br>
+                    la tecnologia. Nuevos episodes, todos los jueves cada 15 dias.
+                </h3>
+                    <button class="nosotros__btn">CONOCÉ MÁS</button>
+            </section>
+    
+            <section class="episodes" id="episodes">
+                <h2 class="episodes__h2">Episodios</h2>
+                <div class="episodes__iframe">
+                    <iframe class="episodes__iframe-item" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="50%" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episodes__iframe-item" src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" width="50%" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episodes__iframe-item" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" width="50%" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="episodes__iframe-item" src="https://open.spotify.com/embed/show/2Iibd5A6R7mxkCm4NwNmUn"            width="50%" height="175" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </section>
+    
+            <section class="history">
+                <div class="history__imgContainer">
+                    <img class="history__img" src="assets/phone.png" alt="phone image">
+                </div>
+                <div class="history__descriptionContainer">
+                    <h2 class="history__h2">De dónde venimos</h2>
+                    <p class="history__p">
+                        Our posturings, our imagined self-importance,
+                        the delusion that we have some privileged
+                        position in the Universe, are challenged by this
+                        point of pale ligth.
+                        Our lanet is a lonely speck in the great
+                        enveloping cosmic dark. In our obscurity, in all
+                        this vastness, there is no hint that help will
+                        come from elsewhere to save us from ourselves.
+                    </p>
+                </div>
+            </section>
+    
+            <section class="invitados" id="invitados">
+                <h2 class="invitados__h2">Invitadas/os estelares</h2>
+                <div class="invitados__galery">
+                    <img class="invitados__img" src="assets/grace-hopper.png" alt="invitados 1">
+                    <img class="invitados__img" src="assets/Katie-Bouman.png" alt="invitados 2">
+                    <img class="invitados__img" src="assets/Margaret_Hamilton.png" alt="invitados 3">
+                </div>
+                <div class="invitados__galery">
+                    <img src="assets/Univac.png" alt="invitados 4" class="invitados__img">
+                    <img src="assets/Eniac.png" alt="invitados 5" class="invitados__img">
+                    <img src="assets/susan-kare.png" alt="invitados 6" class="invitados__img">
+                </div>
+            </section>
+    
+            <section class="topics" id="topics"> 
+                <h2 class="topics__h2">Algunos de nuestros temas</h2>
+                <div class="topics__card">
+                    <div class="topics__imgContainer">
+                        <img src="assets/icon1.svg" alt="icono 1" class="topics__card--img">
+                    </div>
+                    <div class="topics__card--description">
+                       <h3>Trabajo Remoto</h3>
+                    </div>
+                   
+                   
+                </div>
+                <div class="topics__card">
+                    <div class="topics__imgContainer">
+                        <img src="assets/icon2.svg" alt="icono 2" class="topics__card--img">
+                    </div>
+                    <div class="topics__card--description">
+                         <h3>Repensando la programación</h3>
+                    </div>
+                  
+                </div>
+                <div class="topics__card">
+                    <div class="topics__imgContainer">
+                        <img src="assets/icon3.svg" alt="icono 3" class="topics__card--img">
+                    </div>
+                    <div class="topics__card--description">
+                        <h3> Bases del código</h3>
+                    </div>
+                   
+                  
+                </div>
+                <div class="topics__card">
+                    <div class="topics__imgContainer">
+                        <img src="assets/icon4.svg" alt="icono 4" class="topics__card--img">
+                    </div>
+                    <div class="topics__card--description">
+                        <h3>Seguridad informática</h3>
+                    </div>
+                   
+                    
+                </div>
+            </section>
+            
+            
+        <section class="news">
+            <div class="news__title">
+                <h2 class="news__h2">¿Querés las últimas novedades?</h2>
+            </div>
+            <div class="news__container--btn">
+                <button class="news__btn">ESCUCHÁ LOS EPISODIOS</button>
+            </div>
+        </section>
+
+        </main>
+       
+
+        <footer class="footer" id="footer">
+            <div class="footer__copyright">
+                <h2 class="footer__copyright--h2"> &copy; 2019- Hello blue pale dot</h2>
+            </div>
+            <div class="footer__socialMedia">
+                <i class="fab fa-spotify"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-telegram"></i>
+            </div>
+        </footer>
+</body>
+</html>
