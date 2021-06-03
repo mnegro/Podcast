@@ -63,10 +63,10 @@ ul li {
 }
 
 .line {
-    width: 30px;
-    height: 6px;
+    width: 31px;
+    height: 4px;
     background-color: grey;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     border-radius: 5px;
     transition: all 1s ease;    
     transform-origin: left;
@@ -150,8 +150,8 @@ ul li {
 }
 
 .point_blue {
-    width: 7px;
-    height: 7px;
+    width: 5px;
+    height: 5px;
     background-color: blue;
     border-radius: 50%;
     display: inline-block;
@@ -207,7 +207,7 @@ ul li {
     left: 95px;
     height: 80px;
     color: white;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 400;
 }
 
@@ -256,25 +256,25 @@ ul li {
     margin-top: 10%;
 }
 
-.invitados {
+.interviews {
     display: flex;
     width: 100vw;
     flex-wrap: wrap;
 }
 
-.invitados__h2 {
+.interviews__h2 {
     width: 100%;
     font-size: 2rem;
     margin-left: 95px;
     margin-bottom: 20px;
 }
 
-.invitados__galery {
+.interviews__galery {
     width: 100%;
     display: flex;
 }
 
-.invitados__img {
+.interviews__img {
     width: 33.3%;
 }
 
@@ -390,6 +390,17 @@ ul li {
     .nav {
         padding: 5px 25px;
         height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        position: fixed;
+        width: 100vw;
+        z-index: 100;
+    }
+
+    .nav__logo{
+       width: 30px;
     }
 
     .nav__mobile {
@@ -398,6 +409,11 @@ ul li {
      
     .nav__ul {
         display: none;
+    }
+
+    .main-container {
+       position: relative;
+       top: 60px;
     }
 
     .about-us {
@@ -416,6 +432,7 @@ ul li {
     .episodes__h2 {
         top: 95px;
         left: 45px;
+        font-size: 2.2rem;
      }
 
     .episodes__iframe {
@@ -467,16 +484,16 @@ ul li {
     }
 
     
-    .invitados__h2 {
+    .interviews__h2 {
         margin-left: 5%;
     }
 
 
-    .invitados__galery {
+    .interviews__galery {
         flex-direction: column;
     }
 
-    .invitados__img {
+    .interviews__img {
         width: 100%;
     }
 
@@ -511,6 +528,8 @@ ul li {
 
     .footer {
         flex-direction: column;
+        position: relative;
+        top: 60px;
     }
 
     .footer__copyright {
