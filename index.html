@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Podcas Channel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/c2627d9b0a.js" crossorigin="anonymous"></script>
@@ -18,21 +18,21 @@
                </div>
                <ul class="nav__ul">
                    <li><a class="nav__link" href="#episodes">EPISODIOS</a></li>
-                   <li><a class="nav__link" href="#about-us">NOSOTROS</a></li>
+                   <li><a class="nav__link" href="#principal">NOSOTROS</a></li>
                    <li><a class="nav__link" href="#interviews">ENTRTEVISTAS</a></li>
                    <li><a class="nav__link" href="#topics">TÓPICOS</a></li>
                </ul>
                <div class="nav__mobile">
                     <input type="checkbox" name="menu" id="burger-menu">
                     <label for="burger-menu">
-                        <div class="line line-top"></div>
-                        <div class="line line-middle"></div>
-                        <div class="line line-bottom"></div>
+                        <span class="line line-top"></span>
+                        <span class="line line-middle"></span>
+                        <span class="line line-bottom"></span>
                     </label>
                     <div class="nav__mobile--menuSlider">
                         <ul>
                             <li><a class="nav__link__mobile" href="#episodes">EPISODIOS</a></li>
-                            <li><a class="nav__link__mobile" href="#about-us">NOSOTROS</a></li>
+                            <li><a class="nav__link__mobile" href="#principal">NOSOTROS</a></li>
                             <li><a class="nav__link__mobile" href="#interviews">ENTRTEVISTAS</a></li>
                             <li><a class="nav__link__mobile" href="#topics">TÓPICOS</a></li>
                         </ul>
@@ -44,17 +44,17 @@
 
         <main class="main-container">
 
-            <section class="about-us" id="about-us">
-                <div class="about-us__title--container">
-                    <h1 class="about-us__title">Hellow <span class="about-us__line-through">world</span> pale blue dot
-                        <div class="point_blue"></div>
+            <section class="principal" id="principal">
+                <div class="principal__title--container">
+                    <h1 class="principal__title">Hellow <span class="principal__line-through">world</span> pale blue dot
+                        <span class="point_blue"></span>
                     </h1>
                 </div>
                
-                <h3 class="about-us__description">El portal de podcasts que explora el mundo de la programacion y <br>
+                <h3 class="principal__description">El portal de podcasts que explora el mundo de la programacion y <br>
                     la tecnologia. Nuevos episodes, todos los jueves cada 15 dias.
                 </h3>
-                    <button class="about-us__btn">CONOCÉ MÁS</button>
+                    <button class="principal__btn">CONOCÉ MÁS</button>
             </section>
     
             <section class="episodes" id="episodes">
@@ -67,13 +67,13 @@
                 </div>
             </section>
     
-            <section class="history">
-                <div class="history__imgContainer">
-                    <img class="history__img" src="assets/phone.png" alt="phone image">
+            <section class="about-us">
+                <div class="about-us__imgContainer">
+                    <img class="about-us__img" src="assets/phone.png" alt="phone image">
                 </div>
-                <div class="history__descriptionContainer">
-                    <h2 class="history__h2">De dónde venimos</h2>
-                    <p class="history__p">
+                <div class="about-us__descriptionContainer">
+                    <h2 class="about-us__h2">De dónde venimos</h2>
+                    <p class="about-us__p">
                         Our posturings, our imagined self-importance,
                         the delusion that we have some privileged
                         position in the Universe, are challenged by this
@@ -144,14 +144,14 @@
             </section>
             
             
-        <section class="news">
+            <section class="news">
             <div class="news__title">
                 <h2 class="news__h2">¿Querés las últimas novedades?</h2>
             </div>
             <div class="news__container--btn">
                 <button class="news__btn">ESCUCHÁ LOS EPISODIOS</button>
             </div>
-        </section>
+            </section>
 
         </main>
        
@@ -161,11 +161,11 @@
                 <h2 class="footer__copyright--h2"> &copy; 2019- Hello blue pale dot</h2>
             </div>
             <div class="footer__socialMedia">
-                <i class="fab fa-spotify"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-telegram"></i>
+                <a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://es-la.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
             </div>
         </footer>
 </body>
