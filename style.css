@@ -96,8 +96,6 @@ ul li {
     z-index: 10;
 }
 
-
-
 #burger-menu {
     display: none;
 }
@@ -232,6 +230,7 @@ ul li {
 
 .episodes__iframe-item {
     width: 50%;
+    height: 175;
     padding: 10px;
 }
 
@@ -313,7 +312,6 @@ ul li {
 
 .topics__imgContainer {
     text-align: center;
-   
     display: flex;
     justify-content: center;
     text-align: center;
